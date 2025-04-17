@@ -2,13 +2,27 @@
 
 This repository contains a reference implementation of a time‑series data pipeline designed for battery telemetry, optimized for quick alerting, storage efficiency, and historical analysis.
 
+<h3>Final Tables</h3>
+
+<div style="display: flex; gap: 10px; align-items: flex-start;">
+  <div style="flex: 1; text-align: center;">
+    <img src="battery_telemetry.png" alt="Table battery_telemetry" width="600"/>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="daily_soc_min.png" alt="Table daily_soc_min" width="600"/>
+  </div>
+</div>
+
+
 ## Getting Started
 
 Follow these steps to get the project up and running:
 
 0. **Dependencies**  
 - You must have Python3 and recent version of Docker Desktop.
-- You can optionall install a database client like PgAdmin.
+- You can optionally install a database client like PgAdmin.
+- PgAdmin is optional because you can run queries using: docker exec -it timescaledb (see step 8).
+
 
 1. **Clone the repository**  
    ```bash
