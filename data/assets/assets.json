@@ -1,0 +1,20 @@
+{
+  "totalCount": 3,
+  "items": [
+    {
+      "deviceId": "f31b650b-5f18-4a98-b01f-1170715a0796",
+      "description": "Fudura Utrecht",
+      "state": "Warning"
+    },
+    {
+      "deviceId": "499eba1c-bd0b-46db-a861-f8795fcbf02e",
+      "description": "Fudura Zwolle",
+      "state": "Warning"
+    },
+    {
+      "deviceId": "200e55ab-790b-4049-bf23-f84dc866dd32",
+      "description": "Fudura Heerlen",
+      "state": "Ok"
+    }
+  ]
+}
